@@ -6,16 +6,21 @@ img { border: none; }
 table, tr, td { border-collapse: collapse; vertical-align: top; font-size: 13px; line-height: 15px;}
 a { color: #8D0D19;}
 
-#header { height: 70px; margin: 0px; padding: 0px; text-align: left; 
-	background: #1A446C; color: #D4E6F4; }
+#header { background-image: -webkit-linear-gradient(bottom, rgb(250, 250, 250), rgb(34, 34, 34)); height: 70px; padding: 0px; text-align: left; 
+	 color: #D4E6F4; }
 #header h1 { padding: 1em; margin: 0px;}
-#main { margin: 0px; padding: 0px; height: 600px; width: 100%; background: #EEE4B9; }
+#main { padding: 0px; height: 100%;  background: white; }
 #structure { height: 600px; width: 100%; }
 #footer { height: 2em; margin: 0px; padding: 1em; text-align: center; 
 	background: #1A446C;  color: #D4E6F4; }
 	
-#navigation { width: 150px; padding: 1em 2em; color: #D4E6F4; background: #8D0D19; }
-#navigation a { color: #D4E6F4; text-decoration: none; }
+.navigation {position: relative; float:left; width: 200px;  padding: 1em 2em; color: #D4E6F4; background: #8D0D19; }
+.navigation a { color: #D4E6F4; text-decoration: none; }
 ul.subjects { padding-left: 0; list-style: none; }
-ul.pages { padding-left: 2em; list-style: square; }
+.content {position: relative; float:right; padding-right: 2em; width: 600px; list-style: square; background:green;}
 .selected { font-weight: bold; }
+.container{ padding:20px 0 20px 0; height:100%;  margin-top: 0px;
+margin-right: auto;
+margin-bottom: 0px;
+margin-left: auto;
+width: 920px;}

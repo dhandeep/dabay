@@ -1,5 +1,5 @@
-
+</div>
 		</div>
-		<div id="footer">Copyright ,Dabay</div>
+		<div id="footer">Copyright, Dabay</div>
 	</body>
 </html>

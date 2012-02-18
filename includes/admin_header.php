@@ -8,4 +8,5 @@
 		<h1> Dabay admin page</h1>
 		</div>
 		<div id="main">
+		<div class="container">
 	
